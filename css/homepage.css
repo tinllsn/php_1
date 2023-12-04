@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,400;1,500;1,600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+/* body{
+    background: url(./images/apple.png) no-repeat center center;
+    background-size: cover;
+} */
+
+
+div.loginHeader{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.loginHeader h1{
+    font-size: 90px;
+    color: #40aa54;
+    padding: 0px;
+    margin: 0px;
+}
+.loginHeader p{
+    color: #46b95b ;
+    font-size: 50px;
+    margin: 0px;
+    display: inline-block;
+}
+.loginHeader p:after{
+    content: '';
+    display: block;
+    height: 5px;
+    background: #46b95b;
+    margin: 0 auto;
+}
+.loginHeader a{
+    font-size: 30px;
+    color: #46b95b;
+    text-decoration: none;
+    display:block;
+}

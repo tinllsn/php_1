@@ -1,0 +1,100 @@
+form::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.appForm{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1.7px solid #46b95b;
+    border-radius: 5px;
+    background:  #edf8ed;
+}
+label{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.appFormInput{
+    width: 100%;
+    height: 33px;
+    border: 1px solid #46b95b;
+    border-radius: 5px;
+}
+.appFormInputContainer{
+    margin-bottom: 15px;
+}
+#userAddFormContainer{
+    padding-top: 50px;
+}
+.appBtn{
+    background: #46b95b;
+    border: 1px solid #46b95b;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.responseMessage{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 33px;
+    padding: 20px;
+}
+.responseMessage__success{
+    background: rgba(128, 0, 0, 0.1);
+}
+.responseMessage__error{
+    background: rgba(0, 128, 0, 0.1);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.column{
+    width: 100%;
+    padding: 0px 10px;
+}
+.column-5{
+    width: 41.67%; 
+}
+.column-7{
+    width: 58.33%;
+}
+
+.section_header{
+    font-size: 27px;
+    color: #46b95b;
+    border-bottom: 1px solid #edf8ed;
+    padding-bottom: 11px;
+    padding: 10px;    
+    border-left: 4px solid #46b95b;
+    margin-bottom: 15px;
+}
+
+table, th, td{
+    border: 1px solid #46b95b;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+}
+th{
+    font-size: 17px;
+    background-color: #edf8ed;
+    text-align: center;
+}
+td{
+    font-size: 15px;
+    
+}
+
+.userCount{
+    text-align: right;
+    font-size: 17px;
+    font-weight: bold;
+    color: #46b95b;
+}
